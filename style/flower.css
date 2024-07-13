@@ -81,7 +81,7 @@ body {
     width: 90%;
     margin: 0 auto;
     height: 650px;
-    border: 2px solid seagreen;
+    
     margin-top: 100px;
 }
 
@@ -118,9 +118,9 @@ body {
 .third-img {
 width: 450px;
 height: 530px;
-border: 2px solid blue;
+box-shadow: 5px 10px 5px 5px rgb(211, 155, 211);
 border-radius:50% 50% 0 0;
-
+background-color: #f1c6cf;
 
 display: flex;
 justify-content: center;
@@ -128,6 +128,95 @@ align-items: center;
 
 }
 
+.secend-img{
+    background-color: rgb(203, 238, 238);
+    
+}
+
+.third-img{
+    background-color: rgb(219, 225, 236);
+}
+
+.instagram-section-container {
+    width: 90%;
+    margin: 0 auto;
+    height: 930px;  
+    
+    margin: 100px;
+}
+
+.instagram-text-containt {
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.first-img-instagram {
+    width: 330px;
+    height: 390px;
+    
+}
+
+.first-img-instagram img {
+    width: 90%;
+    height: 90%; 
+    margin-left: 15px;
+    margin-top: 17px;
+    box-shadow: 4px 8px 5px 1px rgb(148, 144, 123);
+}
+
+.instagram-image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 119px;
+    margin-top: 10px;
+    
+    
+}
+
+.super-deals-containar {
+    
+    width: 90%;
+    height: 449px;
+    margin: 0 auto;
+    
+    background-image: url(../asset/latest-deals-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.super-deals-containar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.deals-content p {
+margin-bottom: 30px;
+}
+
+.deals-content input {
+    width:400px ;
+    height: 34px;
+    border-radius: 5px 10px 5px 10px;
+    
+    box-shadow: 3px 2px 2px 1px rgb(165, 3, 197);
+}
+
+#btn-subscribe{
+    width:100px ;
+    height: 34px;
+    border-radius: 5px 10px 5px 10px;
+    
+    box-shadow: 3px 2px 2px 1px rgb(165, 3, 197); 
+    background-color: #720243;  
+    color: rgb(255, 230, 2);
+}
 
 
 
